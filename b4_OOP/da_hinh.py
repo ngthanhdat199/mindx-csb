@@ -26,5 +26,3 @@ class Corgi(Dog):
 dogs = [Dog("Buddy", 5), Corgi("Luna", 3)]
 for dog in dogs:
     print(dog.get_description())
-
-# Dù đều gọi get_description(), Dog và Corgi thực thi khác nhau. Đó chính là đa hình.

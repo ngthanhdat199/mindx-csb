@@ -19,7 +19,6 @@ class Shiba(Dog):
     def speak(self):
         print("Woof")
 
-
 class Husky(Dog):
     def __init__(self, name, age):
         super().__init__(name, age)
