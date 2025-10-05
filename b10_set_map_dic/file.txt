@@ -1,0 +1,10 @@
+input: "dat ngo thanh dat"
+
+ko phân biệt chữ hoa và chữ thường
+bỏ hết dấu câu
+
+output: dict = {
+    "dat: 2,
+    "ngo: 1,
+    "thanh: 1
+}
