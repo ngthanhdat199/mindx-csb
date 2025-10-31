@@ -44,15 +44,15 @@ print(stack)
 # forward (tiến về trang sau đó)
 # -> facebook.com
 
-browser = Browser()
-browser.visit_page("google.com") # welcome to google.com
-browser.visit_page("youtube.com") # welcome to youtube.com
-browser.visit_page("facebook.com") # welcome to facebook.com
+# browser = Browser()
+# browser.visit_page("google.com") # welcome to google.com
+# browser.visit_page("youtube.com") # welcome to youtube.com
+# browser.visit_page("facebook.com") # welcome to facebook.com
 
-browser.back() # quay lại youtube.com
-browser.back() # quay lại google.com
-browser.back() # cannot back, because back_stack is empty
+# browser.back() # quay lại youtube.com
+# browser.back() # quay lại google.com
+# browser.back() # cannot back, because back_stack is empty
 
-browser.forward() # tiến về youtube.com
-browser.forward() # tiến về facebook.com
-browser.forward() # cannot forward, because forward_stack is empty
+# browser.forward() # tiến về youtube.com
+# browser.forward() # tiến về facebook.com
+# browser.forward() # cannot forward, because forward_stack is empty
